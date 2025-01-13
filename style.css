@@ -1,0 +1,133 @@
+.homeBtns {
+    display: inline-block;
+    text-align: right;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: .25px;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    position: relative;
+    vertical-align: center;
+    align-items: center;
+}
+
+img {
+    display: inline-block;
+    text-align: left;
+}
+
+body {
+    background-color: #275d39;
+}
+
+.homelinks {
+    text-decoration: none;
+}
+
+.home {
+    color: white;
+    font-family: Lora, sans-serif;
+}
+
+/*#brown {
+    background-color: #97862a;
+    text-align: center;
+    width: 100%; 
+    height: 400px;
+    background: linear-gradient(to top, #97862a 70%, white);
+
+}
+ */
+#uploadDiv {
+    margin: auto;
+    background-color: #97862a;
+    width: 100%;
+    max-width: 800px;
+    height: 700px; 
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: none;
+    position: fixed;
+    margin-top: 20px;
+}
+
+#post {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    height: 100px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+#submit {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    align-self: center;
+    margin-top: auto;
+    background-color: #275d39;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+}
+
+#upload {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    align-self: center;
+    margin-top: auto;
+    background-color: #97862a;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+}
+
+.post {
+    background-color: white;
+    margin-top: 30px;
+    width: 20%;
+    text-align: center;
+    
+
+}
+
+.post-text {
+    background-color: #97862a;
+    margin: 20px auto; /* Center the element horizontally */
+    border-radius: 5px;
+    word-wrap: break-word; /* Ensure long words break */
+    overflow: visible;
+
+    /* Responsive sizing */
+    width: 100%; /* Make it span the full width of the container */
+    max-width: 600px; /* Limit the maximum width for readability */
+    padding: 15px; /* Add padding for better spacing */
+    box-sizing: border-box;
+
+}
+
+#posts-container {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 10px;
+    height: 700px;
+    overflow: visible;
+}
