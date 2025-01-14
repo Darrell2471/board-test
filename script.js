@@ -1,8 +1,10 @@
 
 function show() {
-    document.getElementById("uploadDiv").style.display = "block";
+    const uploadDiv = document.getElementById('uploadDiv');
+    uploadDiv.style.display = 'flex';
 }
 
-function hide(){
-    document.getElementById("submit").style.display = "none";
+function hide() {
+    const uploadDiv = document.getElementById('uploadDiv');
+    uploadDiv.style.display = 'none';
 }
